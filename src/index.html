@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="input.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header class="bg-black py-6 lg:py-12 text-my-grey ">
+    <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
+      <a href="#"
+        class="font-gemunu uppercase pl-4 lg:pl-2 text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-my-red to-my-grey">Gega</a>
+
+       <!-- Mobile Menu -->
+       <div class="block md:hidden pr-4">
+        <div class="space-y-1 cursor-pointer">
+          <div class="bg-my-grey w-8 h-1 rounded-full"></div>
+          <div class="bg-my-grey w-8 h-1 rounded-full"></div>
+          <div class="bg-my-grey w-8 h-1 rounded-full"></div>
+        </div>
+       </div>
+
+      <nav class="hidden md:flex justify-between flex-1">
+        <div class="items-center lg:text-lg space-x-4 lg:space-x-8">
+          <a href="#" class="hover:text-my-melon duration-500">Movies</a>
+          <a href="#" class="hover:text-my-melon duration-500">Celebrites</a>
+          <a href="#" class="hover:text-my-melon duration-500">Blog</a>
+          <a href="#" class="hover:text-my-melon duration-500">News</a>
+          <a href="#" class="hover:text-my-melon duration-500">About</a>
+        </div>
+
+        <div class="flex space-x-4 lg:space-x-8 items-center">
+          <form>
+            <div class="group border-r px-4 mx-4 py-1 border-my-red">
+              <input type="text"
+                class="opacity-0 group-hover:opacity-100 transition duration-500  bg-transparent border-b border-my-red focus:outline-none w-24 lg:w-44">
+              <button class="-ml-4 group-hover:ml-0 transition duration-500"><i
+                  class="fa fa-search group-hover:text-my-red"></i></button>
+            </div>
+          </form>
+
+          <div class="flex item-center space-x-4 lg:space-x-8 lg:text-lg ">
+            <a href="#">Login</a>
+            <a href="#"
+              class="bg-my-red  px-3 lg:py-1  hover:bg-rose-600 hover:text-my-grey 
+               cursor-pointer transition duration-500 rounded-md whitespace-nowrap">Sign
+              Up</a>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+
+</body>
+
+</html>
