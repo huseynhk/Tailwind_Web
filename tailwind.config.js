@@ -18,10 +18,14 @@ module.exports = {
       },
 
       colors:{
-        'my-red':'#BC1A45',
-        'my-melon':'#FFD369',
-        'my-grey':'#DDDDDD',
-        'my-white':'#F7F7F7',
+        'gega-red': '#BC1A45',
+        'gega-melon': '#FFD369',
+        'gega-grey': '#DDDDDD',
+        'gega-white': '#F7F7F7',
+      },
+
+      spacing:{
+       128:'32rem',
       },
     },
   },
