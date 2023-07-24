@@ -11,9 +11,15 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="font-poppins">
+<body class="font-poppins dark">
+
+    <!--Dark/Light Toggle-->
+    <div class="absolute top-1 left-8 cursor-pointer text-lg">
+      <i class="fa-solid fa-sun text-white" id="sun"></i>
+      <i class="fa-solid fa-moon text-black hidden" id="moon"></i>
+    </div>
   <!--Header Section-->
-  <header class="bg-black text-gega-white py-6 lg:py-12 ">
+  <header class="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase">
     <!--Header Container-->
     <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
       <!--Logo-->
@@ -524,10 +530,9 @@
         </div>
       </div>
     </footer>
-  
-
     <!--Footer Section End-->
 
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
